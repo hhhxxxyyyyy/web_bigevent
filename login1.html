@@ -20,7 +20,7 @@
         <div class="login-box">
         <!-- 登录的头部 -->
             <div class="title-box"></div>
-            <form class="layui-form" action="">
+            <form class="layui-form" id = "form_login">
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-rate-solid
                     "></i>
@@ -43,7 +43,7 @@
     <div class="reg-box">
         <!-- 注册的头部 -->
             <div class="title-box"></div>
-            <form class="layui-form" action="">
+            <form class="layui-form" id="form_reg">
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-login-qq
                     "></i>
@@ -53,17 +53,18 @@
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-rate-solid
                     "></i>
-                    <input type="text" name="title" required lay-verify="required" placeholder="密码" autocomplete="off"
+                    <input type="password" name="title" required lay-verify="required" placeholder="密码" autocomplete="off"
                         class="layui-input">
                 </div>
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-rate-solid
                     "></i>
-                    <input type="text" name="title" required lay-verify="required" placeholder="确认密码" autocomplete="off"
+                    <input type="password" name="title" required lay-verify="required" placeholder="确认密码" autocomplete="off"
                         class="layui-input">
                 </div>
+                <div class="layui-form-item"><button class="layui-btn layui-btn-normal layui-btn-fluid lay-submit">登录</button></div>
                 <div class="layui-form-item links">
-                    <a href="javascriprt:;" id="link_login">去登录</a>
+                    <a href="javascript:;" id="link_login">去登录</a>
                 </div>
         </form>
         </div>
